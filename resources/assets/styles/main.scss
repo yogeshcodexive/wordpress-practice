@@ -1,0 +1,47 @@
+@import "common/_variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+//sick
+@import "../../node_modules/slick-carousel/slick/slick.scss";
+@import "../../node_modules/slick-carousel/slick/slick-theme.css";
+// Select2
+@import "../../node_modules/select2/dist/css/select2.min.css";
+// AOS
+@import "../../node_modules/aos/src/sass/aos.scss";
+// Automatically injected Bower dependencies via wiredep (never manually edit this block)
+// bower:scss
+@import '../../node_modules/bootstrap/scss/functions';
+@import '../../node_modules/bootstrap/scss/variables';
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+@import '../../node_modules/bootstrap/scss/mixins';
+@import '../../node_modules/bootstrap/scss/reboot';
+@import '../../node_modules/bootstrap/scss/grid';
+@import '../../node_modules/bootstrap/scss/utilities';
+@import "../../node_modules/slick-carousel/slick/slick.scss";
+// endbower
+@import "common/_fonts";
+@import "common/_global";
+@import "common/_theme";
+@import "common/_variables";
+@import "common/_utilities";
+@import "components/_buttons";
+@import "components/_forms";
+@import "components/_cards";
+@import "components/_modal";
+@import "components/_slick";
+@import "layouts/_header";
+@import "layouts/_footer";
+@import "layouts/_pages";
+
+// pages css
+@import "pages/_home";
+
+
+// parts css
+// @import "parts/_hero";

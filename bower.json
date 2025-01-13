@@ -1,0 +1,16 @@
+{
+  "name": "Curious Boiler Plate v2",
+  "homepage": "https://thecuriousway.com",
+  "authors": [
+    "Arthur Cirulnik <arthur@thecuriousway.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": "1.11",
+    "font-awesome": "*",
+    "slick.js": "*",
+    "bootstrap": "^4.0.0",
+    "gsap": "^2.0.1"
+  }
+}

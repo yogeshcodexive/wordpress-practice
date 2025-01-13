@@ -1,0 +1,92 @@
+.container {
+  max-width: 1440px;
+  // padding-left: 25px;
+  // padding-right: 25px;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+
+  & > * {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+.h-fit {
+  height: fit-content;
+}
+
+.h-vh {
+  height: 100vh;
+}
+
+// TEXT OVERFLOW CSS
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@include media-breakpoint-down(lg) {
+  .px-p-0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .pe-p-0 {
+    padding-right: 0 !important;
+  }
+
+  .ps-p-0 {
+    padding-left: 0 !important;
+  }
+
+  .px-p-p {
+    // padding-left: 25px !important;
+    // padding-right: 25px !important;
+  }
+
+  .mx-m-0 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .res-w-100 {
+    width: 100% !important;
+  }
+
+  .res-h-100 {
+    height: 100%;
+  }
+
+  .res-w-auto {
+    width: auto !important;
+  }
+
+  .res-h-vh {
+    height: 100vh;
+  }
+
+  .res-w-fit {
+    width: fit-content !important;
+  }
+
+  .res-h-fit {
+    height: fit-content !important;
+  }
+
+  .res-radius-0 {
+    border-radius: 0 !important;
+  }
+
+  .text-truncate-none {
+    text-overflow: initial !important;
+    line-clamp: initial !important;
+    -webkit-line-clamp: initial !important;
+  }
+}
